@@ -1,6 +1,6 @@
 /* Style the footer */
 footer {
-  background-color: #261f2b;
+  background-color: #38383a;
   padding: 10px;
   text-align: center;
   color: rgb(255, 250, 250);
@@ -10,6 +10,38 @@ footer {
 body, html {
   height: 100%;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #e3cb31;
+}
+
+
+
+
 
 .hero-image {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.vecteezy.com/system/resources/previews/024/444/866/non_2x/3d-rendering-rounded-pink-blue-neon-lines-glowing-in-the-dark-abstract-minimalist-geometric-background-ultraviolet-spectrum-cyber-space-futuristic-wallpaper-generate-ai-free-photo.jpg");
