@@ -1,0 +1,88 @@
+/* Style the footer */
+footer {
+  background-color: #261f2b;
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 250, 250);
+  position: relative;
+}
+
+body, html {
+  height: 100%;
+}
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.vecteezy.com/system/resources/previews/024/444/866/non_2x/3d-rendering-rounded-pink-blue-neon-lines-glowing-in-the-dark-abstract-minimalist-geometric-background-ultraviolet-spectrum-cyber-space-futuristic-wallpaper-generate-ai-free-photo.jpg");
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+.button1{
+  color:rgb(0, 225, 255);
+}
+
+.img {
+  height: auto;
+  width: 100%;
+}
+/* desktop size */
+.landingPageGrid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 20px;  
+}
+.caseImg {
+border: rgb(0, 255, 255) 2px solid;
+box-shadow: 0 4px 8px 0 rgba(17, 166, 220, 0.582);
+border-radius: 10px;
+
+
+}
+.caseStudyCard {
+border: rgba(222, 2, 200, 0.81) 2px solid;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 purple;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+
+  
+@media screen and (max-width: 600px)
+{
+/* moble size */
+.landingPageGrid {
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 20px;
+} 
+.caseStudyCard
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+.caseImg {
+width: 69%;
+height: 200px;
+margin-left: 20% ;
+}
+}
+
+
