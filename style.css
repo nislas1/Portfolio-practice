@@ -11,6 +11,10 @@ body, html {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -45,11 +49,12 @@ li a:hover {
 
 .hero-image {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.vecteezy.com/system/resources/previews/024/444/866/non_2x/3d-rendering-rounded-pink-blue-neon-lines-glowing-in-the-dark-abstract-minimalist-geometric-background-ultraviolet-spectrum-cyber-space-futuristic-wallpaper-generate-ai-free-photo.jpg");
-height: 50%;
+height: 80%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+;
 }
 
 .hero-text {
